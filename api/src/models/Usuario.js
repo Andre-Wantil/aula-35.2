@@ -29,6 +29,10 @@ class Usuario {
     return usuarios;
   }
 
+  static pegarPeloEmail(email) {
+    return usuarios.find((usuario) => usuario.email === email);
+  }
+
   salvar() {
     usuarios.push(this);
     return this;

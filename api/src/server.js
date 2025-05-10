@@ -10,4 +10,4 @@ server.use((_req, res, _next) =>
   res.status(404).json({ erro: "Rota não existe" })
 );
 
-server.listen(3000, () => console.log("Servidor está rodando!"));
+server.listen(3000, () => console.log("Servidor está rodando! E a minha dor não acaba!!!!!!!!!"));

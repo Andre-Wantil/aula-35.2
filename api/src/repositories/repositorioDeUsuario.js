@@ -8,6 +8,10 @@ class RepositorioDeUsuario {
   criar(usuario) {
     return usuario.salvar();
   }
+
+  pegarPeloEmail(email) {
+    return Usuario.pegarPeloEmail(email)
+  }
 }
 
 module.exports = new RepositorioDeUsuario();

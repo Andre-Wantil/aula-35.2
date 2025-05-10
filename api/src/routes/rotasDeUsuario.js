@@ -4,5 +4,6 @@ const rotasDeUsuario = express.Router();
 
 rotasDeUsuario.get("/todos", controladorDeUsuario.pegarTodos);
 rotasDeUsuario.post("/cadastrar", controladorDeUsuario.cadastrar);
+rotasDeUsuario.post("/conectar", controladorDeUsuario.conectar);
 
 module.exports = rotasDeUsuario;
